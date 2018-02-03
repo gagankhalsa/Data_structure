@@ -19,12 +19,14 @@ public class ArrayListExample {
         obj.set(0,"khalsa");
         System.out.println("list is"+obj);
         obj.remove("jot");
+
         System.out.println("list is"+obj+"size of array list"+obj.size());
         ArrayList<Integer> loop=new ArrayList<Integer>();
         loop.add(0,20);
         loop.add(1,30);
         loop.add(2,3);
         System.out.println(loop);
+
         for (Integer num:loop
              ) {
             System.out.println(num);
@@ -36,5 +38,9 @@ public class ArrayListExample {
         {
             System.out.println(iterator.next());
         }
+        /*ArrayList obj1=new ArrayList();
+        obj1.add("jot");
+        obj1.add("gagan");
+        String s=obj.get(0);*/
     }
 }
